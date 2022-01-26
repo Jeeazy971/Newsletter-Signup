@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+            rel="stylesheet"
+        />
+        <title>Échec</title>
+        <link rel="shortcut icon" href="./public/icon/email.png" type="image/x-icon" />
+        <!-- style sheet -->
+        <link rel="stylesheet" href="public/css/failure.css" />
+    </head>
+    <body>
+        <div class="head">
+            <h1 class="heading">Oups !</h1>
+            <p class="para">
+                Un problème est survenu lors de votre inscription. Veuillez réessayer ou
+                contacter le développeur !
+            </p>
+            <form action="/failure" method="post">
+                <button type="submit" class="btn">Try Again</button>
+            </form>
+        </div>
+    </body>
+</html>
